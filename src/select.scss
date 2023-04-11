@@ -1,0 +1,31 @@
+.select {
+  &__control {
+    cursor: pointer !important;
+    height: 60px !important;
+
+    svg {
+      transition: all 0.2s;
+    }
+
+    &--menu-is-open svg {
+      transform: rotate(180deg) !important;
+    }
+  }
+
+  &__menu {
+    color: red !important;
+  }
+
+  &__indicator-separator {
+    display: none;
+  }
+
+  &__option {
+    cursor: pointer !important;
+    transition: all 0.2s;
+    &--is-focused {
+      background-color: blueviolet !important;
+      color: rgb(53, 131, 79) !important;
+    }
+  }
+}

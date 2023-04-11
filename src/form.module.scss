@@ -1,0 +1,22 @@
+.form {
+  width: 400px;
+  margin: 0 auto;
+
+  &Title {
+    font-size: 20px;
+  }
+
+  &Label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  &Span {
+    display: block;
+  }
+
+  &P {
+    color: red;
+    margin: 0;
+  }
+}
